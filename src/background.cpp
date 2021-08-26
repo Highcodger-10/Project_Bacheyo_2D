@@ -10,7 +10,7 @@ background::background()
 void background::initVariables()
 {
 	this->BackgroundImage3.loadFromFile("/home/highcodger_10/Desktop/Project_OOP_bachiyo_2D/images/backgrounds/png/game_background_1/game_background_1.png");
-	this->BackgroundImage2.loadFromFile("/home/highcodger_10/Desktop/Project_OOP_bachiyo_2D/images/backgrounds/png/game_background_1/game_background_4.png");
+	this->BackgroundImage2.loadFromFile("/home/highcodger_10/Desktop/Project_OOP_bachiyo_2D/images/backgrounds/png/game_background_1/game_background_3. 2.png");
 	this->BackgroundImage1.loadFromFile("/home/highcodger_10/Desktop/Project_OOP_bachiyo_2D/images/backgrounds/png/game_background_1/game_background_2.png");
 	this->Background = new sf::Sprite[50];
 	for (int i = 0; i < 50; i++)
