@@ -5,9 +5,9 @@
 
 void chains::initVariables()
 {
-		this->chainImage.loadFromFile("/home/highcodger_10/Desktop/Project_OOP_bachiyo_2D/images/ground & platforms/chainWheel.png");
+	this->chainImage.loadFromFile("/home/highcodger_10/Desktop/Project_OOP_bachiyo_2D/images/ground & platforms/chainWheel.png");
 	this->rotationUnit = 30;
-	this->WheelPart = sf::IntRect(0, 0, 400, 280);
+	this->WheelPart = sf::IntRect(0, 0, 370, 250);
 	this->chainCollided = false;
 	this->chainSprite = new sf::Sprite[1000];
 }
